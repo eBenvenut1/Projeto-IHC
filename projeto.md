@@ -194,3 +194,42 @@ Ana busca uma plataforma que ofereça uma experiência completa de aprendizado c
 3) **Refinamento do Cenário Análise/Problema**
 
 Ana Carolina, uma cozinheira iniciante que deseja construir um repertório culinário sólido e confiante, busca uma plataforma integrada que centralize receitas didáticas de forma personalizada e progressiva. Atualmente, ela enfrenta dificuldades ao precisar recorrer a diversas fontes para encontrar receitas adequadas ao seu nível, o que torna o aprendizado mais fragmentado e às vezes desencorajador. Ela precisa de uma ferramenta que ofereça receitas com instruções claras, explicações de técnicas básicas e um ambiente de aprendizado interativo para que possa desenvolver suas habilidades culinárias e criar refeições saborosas com segurança e criatividade.
+# **Entrega 5  (01/04) [concluído]**
+
+**[1 solução por pessoa]**
+
+**Análise de Tarefas**
+
+**1) HTA**
+[Análise Hierárquica de Tarefas para "Encontrar e Preparar uma Receita"]
+<img width="546" height="645" alt="{677E21E6-E64E-4DAB-8FE4-8EFFE92E7BA9}" src="https://github.com/user-attachments/assets/d56af57d-ef57-4fb5-8bef-28313919fc1a" />
+
+**2) GOMS**
+
+GOAL: Encontrar e preparar uma receita
+
+GOAL 1: Definir critérios de busca
+METHOD 1.A: Buscar por ingredientes disponíveis
+- OP 1.A.1: Acessar campo "Ingredientes que tenho"
+- OP 1.A.2: Selecionar ingredientes disponíveis
+- OP 1.A.3: Confirmar seleção
+
+METHOD 1.B: Buscar por tipo de prato
+- OP 1.B.1: Acessar categorias
+- OP 1.B.2: Selecionar categoria desejada
+
+GOAL 2: Aplicar filtros
+- OP 2.1: Definir tempo de preparo
+- OP 2.2: Selecionar nível de dificuldade
+- OP 2.3: Aplicar restrições alimentares
+
+GOAL 3: Selecionar receita
+- OP 3.1: Visualizar receitas sugeridas
+- OP 3.2: Comparar opções
+- OP 3.3: Escolher receita final
+
+GOAL 4: Preparar receita
+- OP 4.1: Ativar modo cozinha
+- OP 4.2: Seguir instruções passo-a-passo
+- OP 4.3: Utilizar timer quando necessário
+
