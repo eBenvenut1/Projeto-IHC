@@ -194,7 +194,7 @@ Ana busca uma plataforma que ofereça uma experiência completa de aprendizado c
 3) **Refinamento do Cenário Análise/Problema**
 
 Ana Carolina, uma cozinheira iniciante que deseja construir um repertório culinário sólido e confiante, busca uma plataforma integrada que centralize receitas didáticas de forma personalizada e progressiva. Atualmente, ela enfrenta dificuldades ao precisar recorrer a diversas fontes para encontrar receitas adequadas ao seu nível, o que torna o aprendizado mais fragmentado e às vezes desencorajador. Ela precisa de uma ferramenta que ofereça receitas com instruções claras, explicações de técnicas básicas e um ambiente de aprendizado interativo para que possa desenvolver suas habilidades culinárias e criar refeições saborosas com segurança e criatividade.
-# **Entrega 5  (01/04) [concluído]**
+# **Entrega 5  (29/09) [concluído]**
 
 **[1 solução por pessoa]**
 
