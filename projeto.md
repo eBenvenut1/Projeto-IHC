@@ -312,32 +312,48 @@ Perguntas do formulário:
 
 7) Restrições alimentares (múltipla escolha):
    [ ] Nenhuma
+   
    [ ] Vegetariano/Vegano
+   
    [ ] Sem glúten
+   
    [ ] Sem lactose
+   
    [ ] Diabético
+   
    [ ] Baixo sódio
+   
    [ ] Outras: ___________
 
-8) Tempo médio disponível para cozinhar:
+9) Tempo médio disponível para cozinhar:
    ( ) Menos de 30 minutos
+   
    ( ) 30-60 minutos
+   
    ( ) 1-2 horas
+   
    ( ) Mais de 2 horas
+   
 
-9) Principais fontes de receitas atualmente:
-   _______________________________________________
+11) Principais fontes de receitas atualmente:
+    ._______________________________________________
 
-10) Equipamentos disponíveis na cozinha:
+11) Equipamentos disponíveis na cozinha:
     [ ] Fogão básico
+    
     [ ] Forno
+    
     [ ] Microondas
+    
     [ ] Air fryer
+    
     [ ] Batedeira
+    
     [ ] Processador
+    
     [ ] Outros: ___________
 
 
-11) Principal objetivo ao buscar receitas:
-    _______________________________________________
+13) Principal objetivo ao buscar receitas:
+     ._______________________________________________
 
