@@ -234,6 +234,7 @@ GOAL 4: Preparar receita
 - OP 4.3: Utilizar timer quando necessário
 
 **3) CTT**
+[Diagrama de Tarefas Cooperativas mostrando interação usuário-sistema durante descoberta de receitas]
 <img width="825" height="445" alt="{7EF2BAD0-6988-47F6-B208-4E8E37C0E2A2}" src="https://github.com/user-attachments/assets/56ba4cf0-71a5-49e9-b75b-a9d4eabc7505" />
 
 
@@ -244,7 +245,7 @@ GOAL 4: Preparar receita
 **Protótipo em Papel**
 
 
-# **Entrega 7  (01/04) [concluído]**
+# **Entrega 7  (07/10) [concluído]**
 
 **[PARTE A: 1 solução completa por pessoa da equipe]**
 
