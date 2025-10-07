@@ -292,25 +292,39 @@ Perguntas do formulário:
 2) Email: _______________________
 3) Cidade: _______________________
 4) Idade:
+
    ( ) 18-24 Anos
-   ( ) 25-30 Anos  
+   
+   ( ) 25-30 Anos
+   
    ( ) 31-40 Anos
+   
    ( ) 41-50 Anos
+   
    ( ) Maior que 50 Anos
 
-5) Experiência culinária:
+6) Experiência culinária:
+
    ( ) Iniciante (receitas básicas)
+   
    ( ) Doméstico (cozinho regularmente)
+   
    ( ) Entusiasta (gosto de experimentar)
+   
    ( ) Profissional (chef/cozinheiro)
 
-6) Quantas refeições cozinha por semana:
+8) Quantas refeições cozinha por semana:
+   
    ( ) 1-3 refeições
+   
    ( ) 4-7 refeições
+   
    ( ) 8-14 refeições
+   
    ( ) Mais de 14 refeições
 
-7) Restrições alimentares (múltipla escolha):
+9) Restrições alimentares (múltipla escolha):
+   
    [ ] Nenhuma
    
    [ ] Vegetariano/Vegano
@@ -325,7 +339,8 @@ Perguntas do formulário:
    
    [ ] Outras: ___________
 
-9) Tempo médio disponível para cozinhar:
+10) Tempo médio disponível para cozinhar:
+   
    ( ) Menos de 30 minutos
    
    ( ) 30-60 minutos
@@ -338,7 +353,8 @@ Perguntas do formulário:
 11) Principais fontes de receitas atualmente:
     ._______________________________________________
 
-11) Equipamentos disponíveis na cozinha:
+12) Equipamentos disponíveis na cozinha:
+    
     [ ] Fogão básico
     
     [ ] Forno
