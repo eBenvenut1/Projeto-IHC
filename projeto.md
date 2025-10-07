@@ -244,6 +244,24 @@ GOAL 4: Preparar receita
 
 **Protótipo em Papel**
 
+[Página inicial]
+
+<img width="300" height="445" alt="image" src="https://github.com/user-attachments/assets/bbb76193-7e39-47fb-846e-b6f9e3e17b06" />
+
+
+[Perfil]
+
+<img width="300" height="445" alt="image" src="https://github.com/user-attachments/assets/885e3ac2-2056-429c-b6fa-3b377f20f40d" />
+
+
+[Histórico]
+
+<img width="300" height="445" alt="image" src="https://github.com/user-attachments/assets/9ba2d12e-5748-45f1-a9e2-267a8d1ee4d9" />
+
+
+
+
+
 
 # **Entrega 7  (07/10) [concluído]**
 
