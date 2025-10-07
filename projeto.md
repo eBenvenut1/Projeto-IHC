@@ -233,3 +233,110 @@ GOAL 4: Preparar receita
 - OP 4.2: Seguir instruções passo-a-passo
 - OP 4.3: Utilizar timer quando necessário
 
+**3) CTT**
+<img width="825" height="445" alt="{7EF2BAD0-6988-47F6-B208-4E8E37C0E2A2}" src="https://github.com/user-attachments/assets/56ba4cf0-71a5-49e9-b75b-a9d4eabc7505" />
+
+
+# **Entrega 6  (07/10) [concluído]**
+
+**[PARTE A - 1 solução por equipe]**
+
+**Protótipo em Papel**
+
+
+# **Entrega 7  (01/04) [concluído]**
+
+**[PARTE A: 1 solução completa por pessoa da equipe]**
+
+**1) Identificação de Necessidades dos Usuários e Requisitos de IHC: exercício de perguntas**
+
+**Que dados coletar?**
+- Idade: Para identificar a faixa etária predominante entre os usuários e adaptar complexidade das receitas
+- Experiência culinária: Essencial para entender o nível de habilidade dos usuários e oferecer receitas adequadas
+- Restrições alimentares: Auxilia na personalização de recomendações (vegetariano, sem glúten, diabéticos)
+- Região de residência: Permite mapear ingredientes disponíveis regionalmente
+- Tempo disponível para cozinhar: Identifica se busca receitas rápidas ou elaboradas
+- Objetivo culinário: Se cozinha por necessidade, hobby, profissão ou ocasiões especiais
+
+**De quem coletar?**
+Principalmente dos usuários finais, com foco nas personas mais relevantes para o projeto.
+	
+**2) Aspectos Éticos**
+
+**Seu projeto deverá considerar aspectos éticos?**
+Sim, é fundamental. O projeto deve considerar:
+- Privacidade e Confidencialidade: Dados coletados mantidos em sigilo e usados exclusivamente para melhorar a experiência culinária
+- Consentimento: Participação voluntária na coleta de dados
+- Maioridade: Apenas usuários com 18 anos ou mais podem fornecer dados
+- Finalidade dos dados: Informações usadas apenas para personalizar recomendações da plataforma
+	
+**[PARTE B: 1 solução completa por pessoa da equipe]**
+
+**3) Ferramentas de Coleta de Dados**
+**3.1) Nome do instrumento:** Questionário Online sobre Hábitos Culinários
+**3.2) Objetivo de aplicação:** Coletar dados sobre perfil culinário dos usuários para personalização do sistema
+
+**3.3) Como aplicar:**
+- Disponibilizar formulário online através de plataforma Google Forms
+- Divulgar em redes sociais gastronômicas e grupos de culinária
+- Aplicar durante cadastro inicial no sistema
+- Garantir anonimato e confidencialidade dos dados
+- Análise posterior dos dados para identificação de padrões
+
+**3.4) Instrumento:**
+Link do questionário: [FlavorScope - Formulários Google](https://docs.google.com/forms/d/e/1FAIpQLSeHi6rV8sKwqsINSX2Eu8xlw5t6WY69I6TEo4sgKOF9XZQpqw/viewform?usp=header)
+
+Perguntas do formulário:
+1) Nome: _______________________
+2) Email: _______________________
+3) Cidade: _______________________
+4) Idade:
+   ( ) 18-24 Anos
+   ( ) 25-30 Anos  
+   ( ) 31-40 Anos
+   ( ) 41-50 Anos
+   ( ) Maior que 50 Anos
+
+5) Experiência culinária:
+   ( ) Iniciante (receitas básicas)
+   ( ) Doméstico (cozinho regularmente)
+   ( ) Entusiasta (gosto de experimentar)
+   ( ) Profissional (chef/cozinheiro)
+
+6) Quantas refeições cozinha por semana:
+   ( ) 1-3 refeições
+   ( ) 4-7 refeições
+   ( ) 8-14 refeições
+   ( ) Mais de 14 refeições
+
+7) Restrições alimentares (múltipla escolha):
+   [ ] Nenhuma
+   [ ] Vegetariano/Vegano
+   [ ] Sem glúten
+   [ ] Sem lactose
+   [ ] Diabético
+   [ ] Baixo sódio
+   [ ] Outras: ___________
+
+8) Tempo médio disponível para cozinhar:
+   ( ) Menos de 30 minutos
+   ( ) 30-60 minutos
+   ( ) 1-2 horas
+   ( ) Mais de 2 horas
+
+9) Principais fontes de receitas atualmente:
+   _______________________________________________
+
+10) Equipamentos disponíveis na cozinha:
+    [ ] Fogão básico
+    [ ] Forno
+    [ ] Microondas
+    [ ] Air fryer
+    [ ] Batedeira
+    [ ] Processador
+    [ ] Outros: ___________
+
+
+11) Principal objetivo ao buscar receitas:
+    _______________________________________________
+
