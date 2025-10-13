@@ -725,5 +725,3 @@ Taxa de satisfação média (baseado em estrelas):
 - Yummly: _____ estrelas (n=____ reviews)
 - Tasty: _____ estrelas (n=____ reviews)
 
-Conclusões:
-_______________________
