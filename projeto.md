@@ -354,17 +354,43 @@ Este processo de descoberta contínua o mantém inovador, informado sobre tendê
 
 **[1 solução completa por pessoa da equipe]**
 
-1) **Cenário de Análise/Problema**
+---
 
-Ana Carolina, uma cozinheira iniciante que deseja melhorar suas habilidades culinárias, dedica tempo aos fins de semana para planejar as refeições da semana e experimentar receitas novas. Embora tenha interesse genuíno em cozinhar, enfrenta o desafio de encontrar receitas adequadas ao seu nível, pois muitas plataformas apresentam instruções complexas ou assumem conhecimentos que ela ainda não possui. Ela utiliza diferentes fontes de receitas, mas sente falta de uma solução integrada que ofereça receitas progressivas e explicações didáticas. Ana acredita que uma ferramenta que centralize receitas adequadas ao seu nível a ajudaria a desenvolver confiança na cozinha de forma mais eficiente e prazerosa.
+## 1. CENÁRIO DE ANÁLISE/PROBLEMA
 
-2) **Questões de Refinamento**
+Ana Carolina, uma cozinheira iniciante que deseja melhorar suas habilidades culinárias, dedica tempo aos fins de semana para planejar as refeições da semana e experimentar receitas novas. Embora tenha interesse genuíno em cozinhar, enfrenta o desafio de encontrar receitas adequadas ao seu nível, pois muitas plataformas apresentam instruções complexas ou assumem conhecimentos que ela ainda não possui. Ela utiliza diferentes fontes de receitas (YouTube, AllRecipes, blogs, amigos), mas sente falta de uma solução integrada que ofereça receitas progressivas e explicações didáticas. Ana acredita que uma ferramenta que centralize receitas adequadas ao seu nível a ajudaria a desenvolver confiança na cozinha de forma mais eficiente e prazerosa.
 
-Ana busca uma plataforma que ofereça uma experiência completa de aprendizado culinário para iniciantes, sem precisar recorrer a múltiplas fontes de receitas dispersas. A dificuldade de encontrar receitas realmente adequadas ao seu nível e de entender técnicas culinárias básicas torna o processo de aprendizado mais demorado e às vezes frustrante.
+---
 
-3) **Refinamento do Cenário Análise/Problema**
+## 2. QUESTÕES DE REFINAMENTO
 
-Ana Carolina, uma cozinheira iniciante que deseja construir um repertório culinário sólido e confiante, busca uma plataforma integrada que centralize receitas didáticas de forma personalizada e progressiva. Atualmente, ela enfrenta dificuldades ao precisar recorrer a diversas fontes para encontrar receitas adequadas ao seu nível, o que torna o aprendizado mais fragmentado e às vezes desencorajador. Ela precisa de uma ferramenta que ofereça receitas com instruções claras, explicações de técnicas básicas e um ambiente de aprendizado interativo para que possa desenvolver suas habilidades culinárias e criar refeições saborosas com segurança e criatividade.
+1. **Como o sistema identifica e classifica receitas por nível de dificuldade real e rastreia o progresso do usuário?**
+
+2. **De que forma o sistema oferece explicações didáticas de técnicas culinárias básicas integradas nas receitas?**
+
+3. **Como o sistema centraliza receitas de múltiplas fontes com qualidade e confiabilidade garantidas?**
+
+4. **Como o sistema lida com substituições de ingredientes e oferece um ambiente motivador que celebra sucessos?**
+
+5. **Qual é a estratégia para validar se uma receita é adequada ao nível do usuário e evitar frustrações?**
+
+---
+
+## 3. REFINAMENTO DO CENÁRIO DE ANÁLISE/PROBLEMA
+
+Ana Carolina, uma cozinheira iniciante que deseja construir um repertório culinário sólido e confiante, busca uma plataforma integrada que centralize receitas didáticas de forma personalizada e progressiva. Atualmente, ela enfrenta dificuldades ao precisar recorrer a diversas fontes para encontrar receitas adequadas ao seu nível, o que torna o aprendizado mais fragmentado e às vezes desencorajador.
+
+Ela acessa diferentes fontes de receitas dispersas (YouTube, AllRecipes, blogs, WhatsApp de amigas), cada uma com sua própria classificação de dificuldade, causando confusão constante[1]. Precisa de um sistema que classifique receitas com critérios reais e que rastreie seu progresso, sugerindo automaticamente a próxima receita no nível apropriado quando ela completar uma com sucesso.
+
+A maior frustração de Ana é encontrar receitas com termos técnicos que ela não compreende - "refogue", "desglaceie", "tempere em ponto"[2]. Ela necessita de uma ferramenta que explique essas técnicas de forma clara e didática, com vídeos curtos integrados diretamente nas receitas, um glossário culinário acessível e dicas passo-a-passo que a guiem através de cada etapa sem assumir conhecimentos prévios.
+
+Ana frequentemente fica perdida porque encontra boas receitas em múltiplos lugares, mas sem uma forma de organizá-las ou garantir que são confiáveis[3]. Ela precisa de uma plataforma integrada que centralize receitas de fontes confiáveis (publicações gastronômicas, chefs reconhecidos, comunidade validada), permitindo que organize tudo em um único lugar com qualidade garantida.
+
+Ana frequentemente tem apenas alguns ingredientes em casa e gostaria de adaptar receitas, mas tem medo de arruinar o resultado[4]. Precisa de um sistema que sugira substituições seguras de ingredientes, explicando qual é o papel de cada um e como trocas podem afetar o resultado final, sempre considerando seu nível iniciante. Além disso, se motiva quando vê que está progredindo e precisa de um ambiente que registre seu histórico de sucessos, mostre seu crescimento ao longo do tempo e crie um portfólio pessoal de pratos que domina.
+
+Ela já teve experiências frustrantes ao seguir receitas online que "não deram certo" - ingredientes com quantidades imprecisas, passos confusos ou técnicas não explicadas[5]. Quando encontra uma receita que parece interessante mas depois descobre que é muito complexa, sente-se desmotivada. Necessita de um sistema que valide se uma receita é realmente adequada para seu nível, mostrando quantas pessoas iniciantes conseguiram preparar com sucesso e filtrando automaticamente receitas muito complexas, oferecendo apenas sugestões adequadas ao seu nível atual.
+
+Ela acredita que uma ferramenta integrada e progressiva - que centraliza receitas confiáveis, explica técnicas de forma didática, respeita seu nível atual e celebra seus sucessos - seria exatamente o que precisa para desenvolver suas habilidades culinárias e criar refeições saborosas com segurança, criatividade e confiança.
 # **Entrega 5  (29/09) [concluído]**
 
 **[1 solução por pessoa]**
@@ -373,36 +399,46 @@ Ana Carolina, uma cozinheira iniciante que deseja construir um repertório culin
 
 **1) HTA**
 [Análise Hierárquica de Tarefas para "Encontrar e Preparar uma Receita"]
-<img width="546" height="645" alt="{677E21E6-E64E-4DAB-8FE4-8EFFE92E7BA9}" src="https://github.com/user-attachments/assets/d56af57d-ef57-4fb5-8bef-28313919fc1a" />
+<img width="798" height="549" alt="{AE14DE1B-C906-47CE-8B75-40556D3547F9}" src="https://github.com/user-attachments/assets/f5377d24-588b-419d-b96d-6d036ebd5367" />
+
 
 **2) GOMS**
 
 GOAL: Encontrar e preparar uma receita
-
 GOAL 1: Definir critérios de busca
 METHOD 1.A: Buscar por ingredientes disponíveis
-- OP 1.A.1: Acessar campo "Ingredientes que tenho"
-- OP 1.A.2: Selecionar ingredientes disponíveis
-- OP 1.A.3: Confirmar seleção
+(SEL.RULE: o usuário possui ingredientes em casa e deseja aproveitá-los; quer evitar desperdício)
+
+OP 1.A.1: Acessar campo "Ingredientes que tenho"
+OP 1.A.2: Selecionar ingredientes disponíveis
+OP 1.A.3: Confirmar seleção
 
 METHOD 1.B: Buscar por tipo de prato
-- OP 1.B.1: Acessar categorias
-- OP 1.B.2: Selecionar categoria desejada
+(SEL.RULE: o usuário não possui ingredientes predefinidos; deseja explorar uma categoria específica)
+
+OP 1.B.1: Acessar categorias
+OP 1.B.2: Selecionar categoria desejada
+
 
 GOAL 2: Aplicar filtros
-- OP 2.1: Definir tempo de preparo
-- OP 2.2: Selecionar nível de dificuldade
-- OP 2.3: Aplicar restrições alimentares
+
+OP 2.1: Definir tempo de preparo
+OP 2.2: Selecionar nível de dificuldade
+OP 2.3: Aplicar restrições alimentares
+
 
 GOAL 3: Selecionar receita
-- OP 3.1: Visualizar receitas sugeridas
-- OP 3.2: Comparar opções
-- OP 3.3: Escolher receita final
+
+OP 3.1: Visualizar receitas sugeridas
+OP 3.2: Comparar opções
+OP 3.3: Escolher receita final
+
 
 GOAL 4: Preparar receita
-- OP 4.1: Ativar modo cozinha
-- OP 4.2: Seguir instruções passo-a-passo
-- OP 4.3: Utilizar timer quando necessário
+
+OP 4.1: Ativar modo cozinha
+OP 4.2: Seguir instruções passo-a-passo
+OP 4.3: Utilizar timer quando necessário
 
 **3) CTT**
 [Diagrama de Tarefas Cooperativas mostrando interação usuário-sistema durante descoberta de receitas]
@@ -434,131 +470,260 @@ GOAL 4: Preparar receita
 
 
 
-# **Entrega 7  (07/10) [concluído]**
+**Entrega 7 (07/10) [concluído]**
 
-**[PARTE A: 1 solução completa por pessoa da equipe]**
-
-**1) Identificação de Necessidades dos Usuários e Requisitos de IHC: exercício de perguntas**
-
-**Que dados coletar?**
-- Idade: Para identificar a faixa etária predominante entre os usuários e adaptar complexidade das receitas
-- Experiência culinária: Essencial para entender o nível de habilidade dos usuários e oferecer receitas adequadas
-- Restrições alimentares: Auxilia na personalização de recomendações (vegetariano, sem glúten, diabéticos)
-- Região de residência: Permite mapear ingredientes disponíveis regionalmente
-- Tempo disponível para cozinhar: Identifica se busca receitas rápidas ou elaboradas
-- Objetivo culinário: Se cozinha por necessidade, hobby, profissão ou ocasiões especiais
-
-**De quem coletar?**
-Principalmente dos usuários finais, com foco nas personas mais relevantes para o projeto.
-	
-**2) Aspectos Éticos**
-
-**Seu projeto deverá considerar aspectos éticos?**
-Sim, é fundamental. O projeto deve considerar:
-- Privacidade e Confidencialidade: Dados coletados mantidos em sigilo e usados exclusivamente para melhorar a experiência culinária
-- Consentimento: Participação voluntária na coleta de dados
-- Maioridade: Apenas usuários com 18 anos ou mais podem fornecer dados
-- Finalidade dos dados: Informações usadas apenas para personalizar recomendações da plataforma
-	
 **[PARTE B: 1 solução completa por pessoa da equipe]**
 
-**3) Ferramentas de Coleta de Dados**
-**3.1) Nome do instrumento:** Questionário Online sobre Hábitos Culinários
+---
+
+## 3) Ferramentas de Coleta de Dados
+
+### 3.1) Nome do instrumento: Questionário Online sobre Hábitos Culinários
+
 **3.2) Objetivo de aplicação:** Coletar dados sobre perfil culinário dos usuários para personalização do sistema
 
 **3.3) Como aplicar:**
-- Disponibilizar formulário online através de plataforma Google Forms
-- Divulgar em redes sociais gastronômicas e grupos de culinária
-- Aplicar durante cadastro inicial no sistema
-- Garantir anonimato e confidencialidade dos dados
-- Análise posterior dos dados para identificação de padrões
+* Disponibilizar formulário online através de plataforma Google Forms
+* Divulgar em redes sociais gastronômicas e grupos de culinária
+* Aplicar durante cadastro inicial no sistema
+* Garantir anonimato e confidencialidade dos dados
+* Análise posterior dos dados para identificação de padrões
 
-**3.4) Instrumento:**
-Link do questionário: [FlavorScope - Formulários Google](https://docs.google.com/forms/d/e/1FAIpQLSeHi6rV8sKwqsINSX2Eu8xlw5t6WY69I6TEo4sgKOF9XZQpqw/viewform?usp=header)
+**3.4) Instrumento:** Link do questionário: FlavorScope - Formulários Google
 
-Perguntas do formulário:
-1) Nome: _______________________
-2) Email: _______________________
-3) Cidade: _______________________
-4) Idade:
+**Perguntas do formulário:**
 
-   ( ) 18-24 Anos
-   
-   ( ) 25-30 Anos
-   
-   ( ) 31-40 Anos
-   
-   ( ) 41-50 Anos
-   
-   ( ) Maior que 50 Anos
+1. Nome: _______________________
 
-6) Experiência culinária:
+2. Email: _______________________
 
-   ( ) Iniciante (receitas básicas)
-   
-   ( ) Doméstico (cozinho regularmente)
-   
-   ( ) Entusiasta (gosto de experimentar)
-   
-   ( ) Profissional (chef/cozinheiro)
+3. Cidade: _______________________
 
-8) Quantas refeições cozinha por semana:
-   
-   ( ) 1-3 refeições
-   
-   ( ) 4-7 refeições
-   
-   ( ) 8-14 refeições
-   
-   ( ) Mais de 14 refeições
+4. Idade:
 
-9) Restrições alimentares (múltipla escolha):
-   
-   [ ] Nenhuma
-   
-   [ ] Vegetariano/Vegano
-   
-   [ ] Sem glúten
-   
-   [ ] Sem lactose
-   
-   [ ] Diabético
-   
-   [ ] Baixo sódio
-   
-   [ ] Outras: ___________
+( ) 18-24 Anos
 
-10) Tempo médio disponível para cozinhar:
-   
-   ( ) Menos de 30 minutos
-   
-   ( ) 30-60 minutos
-   
-   ( ) 1-2 horas
-   
-   ( ) Mais de 2 horas
-   
+( ) 25-30 Anos
 
-11) Principais fontes de receitas atualmente:
-    ._______________________________________________
+( ) 31-40 Anos
 
-12) Equipamentos disponíveis na cozinha:
-    
-    [ ] Fogão básico
-    
-    [ ] Forno
-    
-    [ ] Microondas
-    
-    [ ] Air fryer
-    
-    [ ] Batedeira
-    
-    [ ] Processador
-    
-    [ ] Outros: ___________
+( ) 41-50 Anos
+
+( ) Maior que 50 Anos
+
+5. Experiência culinária:
+
+( ) Iniciante (receitas básicas)
+
+( ) Doméstico (cozinho regularmente)
+
+( ) Entusiasta (gosto de experimentar)
+
+( ) Profissional (chef/cozinheiro)
+
+6. Quantas refeições cozinha por semana:
+
+( ) 1-3 refeições
+
+( ) 4-7 refeições
+
+( ) 8-14 refeições
+
+( ) Mais de 14 refeições
+
+7. Restrições alimentares (múltipla escolha):
+
+[ ] Nenhuma
+
+[ ] Vegetariano/Vegano
+
+[ ] Sem glúten
+
+[ ] Sem lactose
+
+[ ] Diabético
+
+[ ] Baixo sódio
+
+[ ] Outras: ___________
+
+8. Tempo médio disponível para cozinhar:
+
+( ) Menos de 30 minutos
+
+( ) 30-60 minutos
+
+( ) 1-2 horas
+
+( ) Mais de 2 horas
+
+9. Principais fontes de receitas atualmente:
+_______________________
+
+10. Equipamentos disponíveis na cozinha (múltipla escolha):
+
+[ ] Fogão básico
+
+[ ] Forno
+
+[ ] Microondas
+
+[ ] Air fryer
+
+[ ] Batedeira
+
+[ ] Processador
+
+[ ] Outros: ___________
+
+11. Principal objetivo ao buscar receitas:
+_______________________
+
+---
+
+### 3.2) Nome do instrumento: Pesquisa de Campo em Cozinhas Domésticas
+
+**3.2) Objetivo de aplicação:** Observar comportamentos reais de usuários ao cozinhar, identificar dificuldades não verbalizadas, padrões de uso de dispositivos e fontes de receitas em contexto natural
+
+**3.3) Como aplicar:**
+* Selecionar 8-12 participantes representativos (iniciantes, domésticos e profissionais)
+* Agendar visita à cozinha do participante em dia e horário quando ele cozinha
+* Pesquisador observa sem interferir durante pelo menos 1-2 horas
+* Anotar comportamentos, movimentos, consultas a receitas, frustrações e sucessos
+* Fotografar/filmar ambiente (com consentimento)
+* Ao final, conduzir entrevista breve sobre observações
+* Coletar dados sobre layout da cozinha, dispositivos disponíveis e organização
+
+**3.4) Instrumento:** Protocolo de Observação de Campo
+
+**Informações Gerais:**
+
+Participante: _________________ Data: _________________ Hora início: _________
+Tipo de preparação: _________________ Número de pessoas: _________________
+
+**Observações sobre Contexto:**
+
+1. Layout da cozinha:
+    - Espaço disponível: ( ) Pequeno ( ) Médio ( ) Grande
+
+   - Organização: ( ) Organizada ( ) Razoavelmente organizada ( ) Desorganizada
+
+   - Equipamentos visíveis: _______________________
+
+3. Dispositivos presentes:
+   - Celular: ( ) Sim ( ) Não - Posicionado: _______________________
+
+   - Tablet: ( ) Sim ( ) Não - Posicionado: _______________________
+
+   - Computador: ( ) Sim ( ) Não - Acessível durante cozimento: ( ) Sim ( ) Não
+
+   - Outros: _______________________
+
+**Observações sobre Comportamento do Usuário:**
+
+3. Consulta de receitas:
+   - Fonte utilizada: ( ) Celular ( ) Tablet ( ) Papel impresso ( ) Memória ( ) Outro: _______
+
+   - Frequência de consulta: ( ) Contínua ( ) Ocasional ( ) Nunca consulta
+
+   - Dificuldades observadas: _______________________
+
+5. Dificuldades durante preparação:
+   - Dúvidas técnicas: _______________________
+
+   - Necessidade de ajuda: ( ) Sim ( ) Não - De quem: _______________________
+
+   - Erros cometidos: _______________________
+
+   - Como resolveu: _______________________
+
+7. Comportamento com dispositivos:
+
+   - Mãos molhadas/sujas durante uso: ( ) Sim ( ) Não
+
+   - Necessidade de ajustar ângulo/posição: ( ) Frequente ( ) Ocasional ( ) Nunca
+
+   - Interrupções/alternância de apps: ( ) Sim ( ) Não
+
+9. Momentos de frustração/sucesso:
+
+   - Expressões observadas: _______________________
+
+   - Pontos de desistência: ( ) Sim ( ) Não - Qual: _______________________
+
+   - Momentos de satisfação: _______________________
+
+**Anotações Adicionais:**
+_______________________
+
+---
+
+### 3.3) Nome do instrumento: Análise de Avaliações Online (Google Reviews e Plataformas de Receitas)
+
+**3.2) Objetivo de aplicação:** Coletar feedback espontâneo de usuários reais sobre plataformas de receitas concorrentes (AllRecipes, Yummly, Tasty), identificar pontos fortes e fracos, validar problemas que FlavorScope pretende resolver
+
+**3.3) Como aplicar:**
+* Acessar Google Play Store, App Store e Google Reviews de plataformas concorrentes
+* Analisar reviews de 2-3 anos recentes (mínimo 100-200 reviews por plataforma)
+* Coletar avaliações de 1-5 estrelas com foco em críticas detalhadas
+* Codificar temas recorrentes (dificuldades, elogios, sugestões)
+* Organizar dados em planilha para análise quantitativa
+* Identificar gaps e oportunidades não atendidas
+* Comparar padrões entre plataformas
+
+**3.4) Instrumento:** Matriz de Análise de Reviews
+
+**Plataforma analisada:** _________________ Data da coleta: _________________
+
+**Reviews Analisados:**
+
+| # | Data | Estrelas | Usuário | Texto Completo | Tema Principal | Problema Identificado | Oportunidade para FlavorScope |
+|---|------|----------|---------|---|---|---|---|
+| 1 | | | | | | | |
+| 2 | | | | | | | |
+| 3 | | | | | | | |
 
 
-13) Principal objetivo ao buscar receitas:
-     ._______________________________________________
 
+| Tema | Frequência | Exemplos de Review |
+|------|-----------|---|
+| Receitas complexas para iniciantes | | |
+| Instruções confusas/inadequadas | | |
+| Falta de explicação de técnicas | | |
+| Difícil encontrar receita adequada ao nível | | |
+| Ingredientes caros/raros | | |
+| Muitos anúncios/interface poluída | | |
+| Falta de personalização | | |
+| Dificuldade em substituir ingredientes | | |
+| Modo offline limitado | | |
+| Comunidade pouco ativa | | |
+| Interfaz não intuitiva | | |
+| Falta de modo otimizado para cozinha | | |
+| Plano premium caro | | |
+| Receitas desatualizado/não funcionam | | |
+| Elogios gerais | | |
+
+
+
+Principais reclamações:
+1. _______________________
+2. _______________________
+3. _______________________
+
+Pontos fortes da concorrência:
+1. _______________________
+2. _______________________
+3. _______________________
+
+Gaps identificados (oportunidades para FlavorScope):
+1. _______________________
+2. _______________________
+3. _______________________
+
+Taxa de satisfação média (baseado em estrelas):
+- AllRecipes: _____ estrelas (n=____ reviews)
+- Yummly: _____ estrelas (n=____ reviews)
+- Tasty: _____ estrelas (n=____ reviews)
+
+Conclusões:
+_______________________
