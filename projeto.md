@@ -971,6 +971,6 @@ Ana Carolina, uma cozinheira iniciante que deseja melhorar suas habilidades culi
 
 ### Diagrama MoLIC:
 
-<img width="531" height="833" alt="{5E845BC4-7EBA-46CF-9FF1-1C880213D2D4}" src="https://github.com/user-attachments/assets/6bc4a92e-ed95-4186-8f5c-5c971059d551" />
+<img width="598" height="741" alt="{31EA50D9-61B3-4B8E-8555-DAAB889E9080}" src="https://github.com/user-attachments/assets/6d9076a2-91d6-4c90-bb58-daf6d4c70bcb" />
 
 
