@@ -974,3 +974,7 @@ Ana Carolina, uma cozinheira iniciante que deseja melhorar suas habilidades culi
 <img width="598" height="741" alt="{31EA50D9-61B3-4B8E-8555-DAAB889E9080}" src="https://github.com/user-attachments/assets/6d9076a2-91d6-4c90-bb58-daf6d4c70bcb" />
 
 
+# Entrega 11 (28/10/2025) [concluido]
+## Protótipo Correspondente ao MOLIC
+## Link para o FIGMA:
+https://www.figma.com/design/9jWUEmVpmIKKMiSGtJD7DT/Sem-t%C3%ADtulo?node-id=0-1&t=5zU9ZOLbtrhg3ucu-1
