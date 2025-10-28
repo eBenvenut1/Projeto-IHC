@@ -725,3 +725,252 @@ Taxa de satisfação média (baseado em estrelas):
 - Yummly: _____ estrelas (n=____ reviews)
 - Tasty: _____ estrelas (n=____ reviews)
 
+# Entrega 8 - (25/10) [concluído]**
+
+[1 solução por equipe]
+
+## CICLO DE VIDA DE ENGENHARIA DE USABILIDADE
+
+### 1. Características da Plataforma
+
+| Característica | Descrição |
+|----------------|-----------|
+| **Descrição do Software** | Sistema interativo baseado na web e mobile, desenvolvido para fornecer recomendações personalizadas de receitas culinárias, descoberta gastronômica e gestão de ingredientes disponíveis. Oferece sugestões baseadas em nível de habilidade, preferências alimentares e ingredientes em despensa. |
+| **Descrição do Hardware** | **Requisitos mínimos:** Navegador moderno (Chrome, Firefox, Safari, Edge), conexão com internet estável. **Compatível com:** Desktops (Windows/Linux/macOS) e dispositivos móveis (Android/iOS). **Recomendado:** Tablet para uso na cozinha durante preparo de receitas. |
+| **LISTA DE Capacidades da Plataforma (com explicação)** | - **Escalabilidade:** Arquitetura modular baseada em microsserviços, permitindo crescimento contínuo de base de receitas e usuários.<br>- **Interoperabilidade:** Integração com APIs de bases de dados culinárias externas (Spoonacular, Edamam), plataformas de vídeos (YouTube) e serviços de entrega de supermercados.<br>- **Responsividade:** Interface adaptável a diferentes tamanhos de tela, com modo especial "cozinha" otimizado para uso durante preparo.<br>- **Personalização:** Sistema de machine learning que aprende preferências do usuário ao longo do tempo.<br>- **Modo Offline:** Possibilidade de salvar receitas favoritas para consulta sem conexão.<br>- **Suporte Multimídia:** Integração de vídeos explicativos, imagens de alta qualidade e timer integrado. |
+| **LISTA DE Restrições da Plataforma (com explicação)** | - **Dependência de Conectividade:** Funcionalidades de busca, recomendações personalizadas e vídeos requerem conexão com internet.<br>- **Privacidade dos Dados:** Exige políticas robustas de proteção de dados culinários e preferências alimentares do usuário (LGPD).<br>- **Limitações Operacionais:** Desempenho pode variar conforme o dispositivo e navegador utilizados, especialmente em vídeos HD.<br>- **Idioma:** Inicialmente disponível apenas em Português do Brasil, com expansão futura planejada.<br>- **Conteúdo Culinário:** Dependência de bases de dados externas para atualização de receitas e tendências gastronômicas.<br>- **Precisão de Substituições:** Sugestões de substituição de ingredientes podem não funcionar perfeitamente em todas as receitas. |
+
+---
+
+### 2. Princípios Gerais do Projeto (INCREMENTAR TABELA)
+
+| Nome | Descrição | Link |
+|------|-----------|------|
+| **Descrição do Contexto** | O FlavorScope opera no contexto da descoberta gastronômica digital, auxiliando usuários de diferentes níveis de experiência culinária a encontrar, preparar e aprender receitas. O sistema considera aspectos culturais, dietéticos e de acessibilidade para proporcionar uma experiência inclusiva e personalizada. | - |
+| **Lei Geral de Proteção de Dados (LGPD) - Lei n.º 13.709/2018** | A LGPD é a legislação brasileira que regulamenta o tratamento de dados pessoais no Brasil. É importante para o FlavorScope porque estabelece regras sobre como os dados dos usuários devem ser coletados, armazenados, processados e protegidos, garantindo sua privacidade e segurança. Isso inclui informações sobre preferências culinárias, restrições alimentares, histórico de receitas preparadas e dados de despensa. | https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm |
+| **Lei n.º 10.098/2000 - Lei da Acessibilidade** | Esta lei brasileira estabelece normas gerais e critérios básicos para a promoção da acessibilidade das pessoas com deficiência ou com mobilidade reduzida. É importante para o projeto porque define diretrizes para tornar a plataforma de receitas acessível a todos os usuários, independentemente de suas habilidades físicas ou cognitivas, incluindo suporte a leitores de tela, contraste adequado e navegação por teclado. | https://www.planalto.gov.br/ccivil_03/leis/l10098.htm |
+| **ABNT NBR ISO 9241 - Ergonomia da interação humano-sistema** | Esta série de normas brasileiras, baseadas nas normas ISO 9241, fornece diretrizes e orientações para o design centrado no usuário de sistemas interativos, incluindo a concepção de interfaces de usuário. A parte 210 aborda o processo de design centrado no humano, enquanto a parte 11 fornece orientações específicas sobre usabilidade. Essas normas são importantes para o FlavorScope porque estabelecem princípios e métodos para garantir que a interface do usuário atenda às necessidades e expectativas dos usuários. | https://www.inf.ufsc.br/~edla.ramos/ine5624/_Walter/Normas/Parte%2011/iso9241-11F2.pdf |
+| **WCAG 2.1 - Web Content Accessibility Guidelines** | Conjunto de diretrizes internacionais para tornar conteúdo web mais acessível a pessoas com deficiências. Para o FlavorScope, é essencial garantir que vídeos de receitas tenham legendas, imagens possuam descrições alternativas, e a navegação seja possível mesmo com mãos ocupadas ou sujas durante o cozimento. | https://www.w3.org/WAI/WCAG21/quickref/ |
+
+---
+
+### 3. Metas de Usabilidade
+
+#### a. Qualitativo
+
+**Redução da sobrecarga de informações na tela:** Permitir que o usuário personalize a interface de acordo com seu nível culinário (iniciante, intermediário, avançado) e a quantidade de detalhes que deseja visualizar nas receitas. Usuários iniciantes verão explicações mais detalhadas, enquanto experientes terão acesso a versões mais concisas.
+
+**Uso de cores adequadas:** Aplicar uma paleta de cores pensada para não causar fadiga visual durante uso prolongado na cozinha. Cores quentes para destacar alertas importantes (temperatura alta, tempo crítico) e cores neutras para leitura confortável de ingredientes e instruções.
+
+**Modo Cozinha Otimizado:** Interface especial com botões grandes, fonte aumentada, controle por gestos simples (deslizar) e tela sempre ligada, considerando que o usuário terá as mãos ocupadas ou sujas durante o preparo.
+
+**Glossário Culinário Integrado:** Termos técnicos culinários (refogar, desglacear, brunoise) devem ter explicações rápidas acessíveis através de toque/clique, com vídeos curtos demonstrativos quando disponível.
+
+**Suporte Progressivo a Iniciantes:** Usuários que se identificam como iniciantes recebem automaticamente receitas com nível adequado, explicações passo-a-passo mais detalhadas, dicas de evitar erros comuns e validação de que outros iniciantes conseguiram preparar com sucesso.
+
+**Feedback Visual de Progresso:** Sistema de badges e conquistas que celebra sucessos culinários (primeira receita, primeira massa, primeira sobremesa), motivando o usuário a continuar desenvolvendo suas habilidades.
+
+**Substituição Inteligente de Ingredientes:** Quando o usuário não possui algum ingrediente, o sistema sugere substituições seguras com explicação do impacto no resultado final, considerando seu nível de habilidade.
+
+**Aviso de Conectividade:** Informar o usuário quando estiver sem conexão com internet, oferecendo acesso às receitas salvas offline e indicando quais funcionalidades ficam indisponíveis.
+
+**Tamanhos Padronizados e Legíveis:** Estabelecer dimensões apropriadas para textos, imagens de ingredientes e vídeos, garantindo legibilidade mesmo em ambientes de cozinha com iluminação variável.
+
+#### b. Quantitativo
+
+| Metas | Porcentagem | Justificativa |
+|-------|-------------|---------------|
+| Facilidade de memorização | 15% | O usuário precisa memorizar fluxos básicos como buscar receitas, ativar modo cozinha e salvar favoritos. Receitas já preparadas devem ser facilmente localizadas no histórico sem necessidade de busca complexa. |
+| Facilidade de aprendizado | 25% | O usuário deve ser capaz de aprender a utilizar a plataforma rapidamente, especialmente cozinheiros iniciantes. Tutoriais interativos, tooltips e onboarding guiado são essenciais para que o usuário compreenda funcionalidades principais em poucos minutos. |
+| Eficiência | 20% | A plataforma deve priorizar eficiência para que o usuário encontre receitas adequadas rapidamente, especialmente quando está com fome ou pressa. Filtros inteligentes e busca por ingredientes disponíveis devem retornar resultados relevantes em segundos. |
+| Taxa de erro | 15% | O sistema deve minimizar erros críticos que possam frustrar o usuário, como sugerir receitas muito complexas para iniciantes, falhas no modo cozinha ou perda de progresso durante preparo. Erros não-críticos (como clicar em categoria errada) devem ser facilmente reversíveis. |
+| Satisfação do usuário | 25% | O usuário deve estar satisfeito com a experiência para continuar utilizando a plataforma regularmente. Isso inclui encontrar receitas que realmente funcionam, sentir-se apoiado durante o aprendizado e celebrar seus sucessos culinários. A satisfação é fundamental para retenção e engajamento. |
+| **Total** | **100%** | |
+
+# **Entrega 9 (28/10) [concluído]**
+**[1 solução completa por pessoa da equipe]**
+
+---
+
+## 1) Cenários de Interação
+
+### Cenário de Análise/Problema (Original - Entrega 4):
+
+Ana Carolina, uma cozinheira iniciante que deseja melhorar suas habilidades culinárias, dedica tempo aos fins de semana para planejar as refeições da semana e experimentar receitas novas. Embora tenha interesse genuíno em cozinhar, enfrenta o desafio de encontrar receitas adequadas ao seu nível, pois muitas plataformas apresentam instruções complexas ou assumem conhecimentos que ela ainda não possui. Ela utiliza diferentes fontes de receitas (YouTube, AllRecipes, blogs, amigos), mas sente falta de uma solução integrada que ofereça receitas progressivas e explicações didáticas. Ana acredita que uma ferramenta que centralize receitas adequadas ao seu nível a ajudaria a desenvolver confiança na cozinha de forma mais eficiente e prazerosa.
+
+### Cenário de Interação (Solução com FlavorScope):
+
+Ana Carolina, uma cozinheira iniciante que deseja melhorar suas habilidades culinárias, dedica tempo aos fins de semana para planejar as refeições da semana e experimentar receitas novas. **Ao acessar o FlavorScope pelo seu tablet, ela faz login e é recebida por uma interface personalizada que reconhece seu nível de habilidade e exibe receitas adequadas para iniciantes.** 
+
+**O sistema apresenta um painel inicial com sugestões baseadas nos ingredientes que ela cadastrou em sua despensa virtual, mostrando receitas com tempo de preparo realista, nível de dificuldade claramente indicado e avaliações de outros usuários iniciantes que prepararam com sucesso.** Embora tenha interesse genuíno em cozinhar, **agora ela encontra facilmente receitas com instruções passo-a-passo detalhadas, vídeos explicativos integrados para técnicas que ainda não domina e um glossário culinário acessível através de toques simples em termos técnicos.**
+
+**Ela seleciona uma receita de "Frango Grelhado com Legumes Assados" que o sistema recomendou baseado em seus ingredientes disponíveis. Ao iniciar o preparo, ativa o "Modo Cozinha" que mantém a tela sempre ligada, exibe instruções em fonte grande e permite navegação por gestos simples mesmo com as mãos ocupadas.** Ela utiliza **o timer integrado que alerta quando é hora de virar o frango, e quando tem dúvida sobre o termo "grelhar em fogo médio-alto", toca na palavra e assiste um vídeo de 30 segundos explicando a técnica.**
+
+**Após preparar a receita com sucesso, Ana avalia o prato com 5 estrelas e registra no seu histórico culinário. O sistema a parabeniza pela conquista "Primeira Proteína Grelhada" e sugere receitas similares para ela continuar praticando essa técnica.** Ana acredita que **o FlavorScope centraliza tudo que ela precisa em uma única plataforma confiável, oferece suporte didático durante todo o processo e celebra seus progressos, ajudando-a a desenvolver confiança na cozinha de forma mais eficiente e prazerosa.**
+
+---
+
+## 2) Design Centrado na Comunicação
+
+### Nome do Cenário: Buscar e Preparar Receita Adequada ao Nível
+
+| Tópico > Subtópico (Diálogo) | Falas e Signos |
+|-------------------------------|----------------|
+| **U: Preciso encontrar uma receita para o jantar de hoje** | |
+| > U: Quero algo rápido e adequado ao meu nível | Usuário acessa tela inicial do FlavorScope |
+| **D: Aqui estão suas opções personalizadas** | Sistema exibe dashboard com:<br>• Seção "Recomendadas para Você" (ícone de estrela)<br>• Seção "Baseado na Sua Despensa" (ícone de geladeira)<br>• Filtro de tempo: slider 15-120 minutos<br>• Badge "Iniciante" visível no perfil<br>• Receitas com etiquetas: "Fácil", "30 min", "✓ Outros iniciantes aprovaram" |
+| **U: Tenho frango e legumes em casa** | |
+| > U: Quero buscar por ingredientes disponíveis | Usuário toca em "Buscar por Ingredientes" (ícone de lupa + lista) |
+| **D: Selecione os ingredientes que você possui** | Sistema exibe:<br>• Lista categorizada: Proteínas, Vegetais, Grãos, Temperos<br>• Busca rápida com autocomplete<br>• Ingredientes previamente cadastrados aparecem destacados<br>• Botão "Continuar" (cor primária, destacado) |
+| **U: Seleciono frango, tomate, cenoura, batata** | |
+| > U: Aplico filtros de tempo e dificuldade | Usuário seleciona ingredientes (checkboxes com ícones visuais)<br>Define filtros:<br>• Tempo: até 45 minutos<br>• Dificuldade: Fácil<br>• Sem restrições alimentares |
+| **D: Aqui estão 8 receitas que combinam com você** | Sistema retorna resultados ordenados:<br>• Cards de receitas com foto atrativa<br>• Título claro e conciso<br>• Tempo de preparo (ícone de relógio)<br>• Dificuldade (ícone de chapéu de chef + cor verde para fácil)<br>• Avaliação de outros iniciantes: "92% dos iniciantes conseguiram"<br>• Badge: "Vídeo passo-a-passo disponível" |
+| **U: Essa receita parece boa!** | |
+| > U: Quero ver os detalhes antes de decidir | Usuário toca no card "Frango Grelhado com Legumes Assados" |
+| **D: Detalhes da receita** | Sistema exibe página de receita com:<br>• Foto em destaque<br>• Tempo total, Porções ajustáveis (slider)<br>• Lista de ingredientes com quantidades<br>• Botão "Tenho todos ingredientes" / "Falta ingrediente"<br>• Seção "Técnicas envolvidas": "Grelhar", "Assar", "Temperar"<br>• Indicador: "Você ainda não domina: Grelhar" (link para tutorial)<br>• Botão principal: "Iniciar Modo Cozinha" (CTA destacado) |
+| **U: Não sei o que é "grelhar em fogo médio-alto"** | |
+| > U: Preciso de ajuda com esse termo | Usuário toca na palavra "grelhar" (aparece sublinhada/destacada) |
+| **D: Explicação de técnica culinária** | Sistema abre modal com:<br>• Definição curta: "Cozinhar alimento em superfície quente com pouca gordura"<br>• Vídeo demonstrativo (30-45 segundos)<br>• Dicas para iniciantes: "Aqueça bem a frigideira antes", "Não mexa demais"<br>• Botão "Entendi" para fechar |
+| **U: Agora entendi, vou começar a preparar** | |
+| > U: Ativo o modo otimizado para cozinha | Usuário toca em "Iniciar Modo Cozinha" |
+| **D: Modo Cozinha Ativado** | Sistema adapta interface:<br>• Tela sempre ligada<br>• Fonte aumentada (18pt → 24pt)<br>• Fundo com alto contraste<br>• Navegação simplificada: botões grandes "Anterior" / "Próximo"<br>• Passo atual destacado em cor vibrante<br>• Timer integrado visível no topo<br>• Gestos: deslizar para avançar/voltar |
+| **U: Estou no passo 3 de 8** | |
+| > U: Preciso do timer para não queimar | Usuário lê: "Grelhe o frango por 7 minutos de cada lado"<br>Toca no ícone de timer integrado ao lado da instrução |
+| **D: Timer configurado** | Sistema:<br>• Inicia contagem regressiva: 7:00<br>• Exibe alerta visual quando chegar em 1:00 (cor amarela)<br>• Emite som + vibração quando terminar<br>• Mensagem: "Hora de virar o frango!" |
+| **U: Terminei todos os passos!** | |
+| > U: Quero avaliar minha experiência | Usuário toca em "Concluir Receita" |
+| **D: Parabéns! Como foi sua experiência?** | Sistema exibe tela de conclusão:<br>• Animação celebrativa<br>• "Parabéns! Você completou sua receita!"<br>• Badge desbloqueado: "Primeira Proteína Grelhada" (ícone de medalha)<br>• Avaliação: estrelas 1-5<br>• Campo opcional: "Conte como foi" (texto)<br>• Botão: "Salvar no Histórico"<br>• Sugestão: "Receitas similares para você" |
+| **U: Deu super certo!** | |
+| > U: Avalio com 5 estrelas e salvo | Usuário avalia, adiciona comentário opcional<br>Receita é salva automaticamente no "Histórico Culinário" |
+| **D: Receita salva! Continue explorando** | Sistema:<br>• Confirma salvamento (feedback visual: ✓)<br>• Atualiza perfil: "2 receitas completadas"<br>• Sugere próxima receita no mesmo nível<br>• Mostra progresso: "Você está 40% mais confiante em Grelhar" |
+
+---
+
+## 3) Mapa de Objetivos
+
+### Mapa de Objetivos Individual - Enzo Benvenuti
+
+| Mapa de objetivo | |
+|------------------|---|
+| **final** | Quer utilizar o sistema para encontrar e preparar receitas adequadas ao seu nível de habilidade culinária com confiança e suporte didático. |
+| **instrumental** | Quer buscar receitas por ingredientes disponíveis, aplicar filtros de dificuldade e tempo, e visualizar receitas recomendadas para seu perfil. |
+| **instrumental** | Quer acessar explicações de técnicas culinárias através de glossário integrado, vídeos demonstrativos e dicas para evitar erros comuns. |
+| **instrumental** | Quer ativar o Modo Cozinha otimizado para seguir instruções passo-a-passo com suporte de timer integrado e navegação por gestos simples. |
+| **instrumental** | Quer avaliar receitas preparadas, salvar no histórico culinário, receber badges de conquista e visualizar evolução de suas habilidades. |
+
+## 4) Esquema Conceitual de Signos
+
+### Busca de Receitas (BR)
+
+**Tabela 1 - Origem dos Signos**
+
+| Signo | Origem | Observações |
+|-------|--------|-------------|
+| ingredientes_selecionados | domínio | Lista de ingredientes que o usuário possui |
+| tempo_maximo | domínio | Tempo disponível para preparo (em minutos) |
+| nivel_dificuldade | domínio | Nível de habilidade do usuário (iniciante/intermediário/avançado) |
+| restricoes_alimentares | domínio | Alergias ou preferências dietéticas |
+| tipo_prato | domínio | Categoria da receita (entrada/prato principal/sobremesa) |
+
+**Tabela 2 - Tipo de Conteúdo e Restrições**
+
+| Signo | Tipo de Conteúdo | Restrição sobre Conteúdo | Valor Default |
+|-------|------------------|--------------------------|---------------|
+| ingredientes_selecionados | lista de texto | mínimo 1 ingrediente | — |
+| tempo_maximo | número inteiro | entre 15 e 180 minutos | 60 minutos |
+| nivel_dificuldade | enumeração | {iniciante, intermediário, avançado} | iniciante |
+| restricoes_alimentares | lista de texto | valores pré-definidos ou vazio | vazio |
+| tipo_prato | enumeração | {entrada, principal, acompanhamento, sobremesa, bebida} | principal |
+
+**Tabela 3 - Prevenção e Recuperação**
+
+| Signo | Prevenção | Recuperação |
+|-------|-----------|-------------|
+| ingredientes_selecionados | PP: campo obrigatório, mensagem "Selecione ao menos 1 ingrediente" | RA: sistema mantém seleção anterior |
+| tempo_maximo | PP: slider com valores válidos, impossível selecionar fora do intervalo | RA: retorna ao valor default (60 min) |
+| nivel_dificuldade | PP: definido automaticamente no perfil do usuário | RA: permite alteração manual |
+| restricoes_alimentares | PP: checkbox com opções pré-definidas, validação de compatibilidade | RA: permite remover restrições a qualquer momento |
+| tipo_prato | PP: seleção única obrigatória, opções visualmente claras | RA: permite mudança sem perder outros filtros |
+
+---
+
+### Modo Cozinha (MC)
+
+**Tabela 1 - Origem dos Signos**
+
+| Signo | Origem | Observações |
+|-------|--------|-------------|
+| receita_selecionada | domínio | Receita que o usuário está preparando |
+| passo_atual | sistema | Número do passo em execução |
+| timer_ativo | sistema | Indicador se há timer em execução |
+| tempo_restante | sistema | Tempo restante no timer (em segundos) |
+| gesto_navegacao | interação | Deslizar tela para avançar/voltar |
+
+**Tabela 2 - Tipo de Conteúdo e Restrições**
+
+| Signo | Tipo de Conteúdo | Restrição sobre Conteúdo | Valor Default |
+|-------|------------------|--------------------------|---------------|
+| receita_selecionada | objeto receita | não pode ser nulo | — |
+| passo_atual | número inteiro | entre 1 e total_passos | 1 |
+| timer_ativo | booleano | true/false | false |
+| tempo_restante | número inteiro | >= 0 segundos | 0 |
+| gesto_navegacao | evento touch | deslizar horizontal | — |
+
+**Tabela 3 - Prevenção e Recuperação**
+
+| Signo | Prevenção | Recuperação |
+|-------|-----------|-------------|
+| receita_selecionada | PP: validação antes de ativar Modo Cozinha | RA: retorna à tela de detalhes da receita |
+| passo_atual | PP: botões de navegação desabilitados nos limites (primeiro/último passo) | RA: sistema salva progresso automaticamente |
+| timer_ativo | PP: apenas 1 timer por vez, confirmação antes de cancelar | RA: permite pausar/retomar timer |
+| tempo_restante | PP: alerta visual quando tempo < 1 minuto, notificação sonora ao término | RA: permite adicionar tempo extra |
+| gesto_navegacao | PP: área de toque ampla, feedback visual ao deslizar | RA: permite navegação também por botões |
+
+---
+
+### Avaliação e Histórico (AH)
+
+**Tabela 1 - Origem dos Signos**
+
+| Signo | Origem | Observações |
+|-------|--------|-------------|
+| avaliacao_estrelas | interação | Nota de 1 a 5 estrelas dada pelo usuário |
+| comentario_opcional | interação | Texto descrevendo a experiência |
+| receita_concluida | domínio | Receita que foi preparada com sucesso |
+| badge_conquistado | sistema | Conquista desbloqueada ao completar receita |
+| progresso_tecnica | sistema | Percentual de domínio de técnicas culinárias |
+
+**Tabela 2 - Tipo de Conteúdo e Restrições**
+
+| Signo | Tipo de Conteúdo | Restrição sobre Conteúdo | Valor Default |
+|-------|------------------|--------------------------|---------------|
+| avaliacao_estrelas | número inteiro | entre 1 e 5 | — |
+| comentario_opcional | texto | máximo 500 caracteres | vazio |
+| receita_concluida | objeto receita | não pode ser nulo | — |
+| badge_conquistado | objeto badge | pode ser nulo (se não houver conquista) | nulo |
+| progresso_tecnica | número decimal | entre 0.0 e 100.0 | 0.0 |
+
+**Tabela 3 - Prevenção e Recuperação**
+
+| Signo | Prevenção | Recuperação |
+|-------|-----------|-------------|
+| avaliacao_estrelas | PP: campo obrigatório, representação visual clara (estrelas interativas) | RA: permite editar avaliação posteriormente |
+| comentario_opcional | PP: contador de caracteres visível, limite claro | RA: salva rascunho automaticamente |
+| receita_concluida | PP: botão "Concluir" disponível apenas após todos os passos | RA: permite retomar receita se fechou sem concluir |
+| badge_conquistado | PP: animação celebrativa ao desbloquear | RA: permite visualizar todos badges no perfil |
+
+# Entrega 10 (28/10/2025) [concluido]
+
+**[1 solução completa - Enzo Benvenuti]**
+
+## MOLIC
+
+### Nome do Cenário: Acessar Sistema e Encontrar Receita para Fazer
+
+---
+
+### Diagrama MoLIC:
+
+<img width="531" height="833" alt="{5E845BC4-7EBA-46CF-9FF1-1C880213D2D4}" src="https://github.com/user-attachments/assets/6bc4a92e-ed95-4186-8f5c-5c971059d551" />
+
+
