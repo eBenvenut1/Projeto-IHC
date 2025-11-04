@@ -399,7 +399,9 @@ Ela acredita que uma ferramenta integrada e progressiva - que centraliza receita
 
 **1) HTA**
 [Análise Hierárquica de Tarefas para "Encontrar e Preparar uma Receita"]
-<img width="798" height="549" alt="{AE14DE1B-C906-47CE-8B75-40556D3547F9}" src="https://github.com/user-attachments/assets/f5377d24-588b-419d-b96d-6d036ebd5367" />
+<img width="672" height="414" alt="{4FC78166-375C-4304-8EE4-2547D69A6A09}" src="https://github.com/user-attachments/assets/718fdd87-3752-4caa-ba70-71e69ab63aa9" />
+
+
 
 
 **2) GOMS**
@@ -971,10 +973,30 @@ Ana Carolina, uma cozinheira iniciante que deseja melhorar suas habilidades culi
 
 ### Diagrama MoLIC:
 
-<img width="598" height="741" alt="{31EA50D9-61B3-4B8E-8555-DAAB889E9080}" src="https://github.com/user-attachments/assets/6d9076a2-91d6-4c90-bb58-daf6d4c70bcb" />
+<img width="825" height="697" alt="{B015D701-AE5A-4D6B-87EF-44E2850514FC}" src="https://github.com/user-attachments/assets/a326892c-bcf6-4920-beb6-340b91892df7" />
+
 
 
 # Entrega 11 (28/10/2025) [concluido]
 ## Protótipo Correspondente ao MOLIC
 ## Link para o FIGMA:
 https://www.figma.com/design/9jWUEmVpmIKKMiSGtJD7DT/Sem-t%C3%ADtulo?node-id=0-1&t=5zU9ZOLbtrhg3ucu-1
+
+
+# **Entrega 12 (data) [em andamento]**
+
+**[1 solução por equipe]**
+
+---
+
+## a) Planejamento de Usabilidade (método DECIDE)
+
+| Etapa | Descrição |
+|-------|-----------|
+| **D** | **Determinar os objetivos gerais da avaliação**<br><br>Definir como objetivo principal avaliar a eficiência, eficácia e satisfação dos usuários iniciantes ao buscar e selecionar receitas adequadas ao seu nível no FlavorScope. Avaliar se os usuários conseguem completar o fluxo de busca de receitas em até 5 minutos com menos de 3 erros, e se compreendem as explicações de técnicas culinárias oferecidas pelo sistema. |
+| **E** | **Explorar perguntas a serem respondidas**<br><br>Perguntas principais:<br>• O usuário consegue encontrar receitas adequadas ao seu nível de habilidade?<br>• Ele compreende os filtros de busca (ingredientes, tempo, dificuldade)?<br>• As explicações de técnicas culinárias são claras e úteis?<br>• O Modo Cozinha é adequado para uso com as mãos ocupadas?<br>• A linguagem utilizada no sistema é clara para iniciantes?<br>• Existem distrações ou elementos desnecessários na interface?<br>• O sistema ajuda o usuário a desenvolver confiança culinária?<br>• A interface causa frustração ou dificuldades de navegação? |
+| **C** | **Escolher os métodos de avaliação**<br><br>**Método 1:** Avaliação Heurística por especialistas (3 avaliadores) usando as 10 heurísticas de Nielsen para identificar violações de usabilidade.<br><br>**Método 2:** Testes de usabilidade com usuários reais presenciais, com roteiros pré-definidos e checklist de tarefas. Sessões gravadas com observação direta + coleta de feedback via questionário pós-teste.<br><br>**Método 3:** Questionário de satisfação (escala Likert 1-5) aplicado após os testes para medir percepção de facilidade, clareza e satisfação geral. |
+| **I** | **Identificar questões práticas**<br><br>**Amostra:** 5 usuários representando o público-alvo (cozinheiros iniciantes e domésticos, 18-45 anos).<br><br>**Ferramentas:** Protótipo interativo (Figma), notebook/tablet com acesso à internet, software de gravação de tela (OBS Studio), formulário digital (Google Forms), cronômetro.<br><br>**Local:** Ambiente silencioso e confortável (laboratório ou sala reservada).<br><br>**Duração:** 20-30 minutos por sessão de teste.<br><br>**Equipe:** 1 moderador (conduz teste), 1 observador (anota comportamentos).<br><br>**Recrutamento:** Divulgação em redes sociais e grupos de culinária, incentivo de R$ 50 (vale-presente) por participante.<br><br>**Cronograma:** Semana 1 (preparação), Semana 2 (avaliação heurística), Semana 3 (testes com usuários), Semana 4 (análise). |
+| **D** | **Decidir como lidar com questões éticas**<br><br>**Consentimento informado:** Todos os participantes assinarão Termo de Consentimento Livre e Esclarecido (TCLE) antes dos testes, explicando objetivos, procedimentos e direito de desistir a qualquer momento.<br><br>**Privacidade (LGPD):** Dados pessoais anonimizados. Informações coletadas apenas para fins de pesquisa. Armazenamento seguro e descarte após análise.<br><br>**Gravações:** Autorização específica para gravação de tela e áudio. Participantes podem optar por não ser gravados.<br><br>**Bem-estar:** Ambiente confortável, pausas permitidas, esclarecimento de que erros são do sistema (não do usuário). Nenhum dado sensível será coletado. |
+| **E** | **Avaliar (Evaluate), interpretar e apresentar os dados**<br><br>**Análise Quantitativa:** Resultados serão tabulados em planilhas. Indicadores de sucesso: tarefas completadas (%), tempo médio de execução, número de erros cometidos, notas de satisfação (média da escala Likert).<br><br>**Análise Qualitativa:** Observações comportamentais (hesitações, expressões, comentários think-aloud), transcrição de feedback qualitativo, categorização de problemas recorrentes.<br><br>**Triangulação:** Cruzamento entre avaliação heurística e testes com usuários para validar problemas identificados.<br><br>**Relatório final:** Documento com sumário executivo, metodologia, perfil dos participantes, resultados por tarefa, lista priorizada de problemas (severidade 0-4), gráficos de desempenho, citações relevantes dos usuários, recomendações de melhorias e próximos passos.<br><br>**Priorização:** Crítico (impede tarefa) > Alto (causa frustração) > Médio (dificulta uso) > Baixo (cosmético). |
+
