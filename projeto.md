@@ -1000,3 +1000,105 @@ https://www.figma.com/design/9jWUEmVpmIKKMiSGtJD7DT/Sem-t%C3%ADtulo?node-id=0-1&
 | **D** | **Decidir como lidar com questões éticas**<br><br>**Consentimento informado:** Todos os participantes assinarão Termo de Consentimento Livre e Esclarecido (TCLE) antes dos testes, explicando objetivos, procedimentos e direito de desistir a qualquer momento.<br><br>**Privacidade (LGPD):** Dados pessoais anonimizados. Informações coletadas apenas para fins de pesquisa. Armazenamento seguro e descarte após análise.<br><br>**Gravações:** Autorização específica para gravação de tela e áudio. Participantes podem optar por não ser gravados.<br><br>**Bem-estar:** Ambiente confortável, pausas permitidas, esclarecimento de que erros são do sistema (não do usuário). Nenhum dado sensível será coletado. |
 | **E** | **Avaliar (Evaluate), interpretar e apresentar os dados**<br><br>**Análise Quantitativa:** Resultados serão tabulados em planilhas. Indicadores de sucesso: tarefas completadas (%), tempo médio de execução, número de erros cometidos, notas de satisfação (média da escala Likert).<br><br>**Análise Qualitativa:** Observações comportamentais (hesitações, expressões, comentários think-aloud), transcrição de feedback qualitativo, categorização de problemas recorrentes.<br><br>**Triangulação:** Cruzamento entre avaliação heurística e testes com usuários para validar problemas identificados.<br><br>**Relatório final:** Documento com sumário executivo, metodologia, perfil dos participantes, resultados por tarefa, lista priorizada de problemas (severidade 0-4), gráficos de desempenho, citações relevantes dos usuários, recomendações de melhorias e próximos passos.<br><br>**Priorização:** Crítico (impede tarefa) > Alto (causa frustração) > Médio (dificulta uso) > Baixo (cosmético). |
 
+
+
+# **Entrega 13 (04/11) [concluido]**
+
+**[1 solução completa por pessoa da equipe - Enzo Benvenuti]**
+
+---
+
+## A) Avaliação de IHC através de inspeção HEURÍSTICA
+
+**Violação #1**
+
+![Tela de processamento sem feedback]
+
+<img width="394" height="810" alt="{ABC03091-BB04-423E-8961-1F4206F690AB}" src="https://github.com/user-attachments/assets/85f2861d-953c-481d-9e5f-eeeb78120f91" />
+
+
+| **Verificação** | **Descrição** |
+|-----------------|---------------|
+| **Local** | Tela de Resultados - Processamento de busca |
+| **Problema** | Quando o usuário clica em "Buscar Receitas" após aplicar filtros, a tela permanece estática por 2-4 segundos sem nenhum indicador de que o sistema está processando a solicitação. |
+| **Contexto** | Usuário aplica filtros (ingredientes: frango, tomate; tempo: 30 min; dificuldade: fácil) e clica em buscar. A interface não muda imediatamente. |
+| **Gravidade** | **3 - Problema Grande (Alta Prioridade)** |
+| **Justificativa** | **Frequência:** Ocorre sempre que uma busca é realizada (muito comum).<br>**Impacto:** Médio - usuário fica sem saber se o clique foi registrado, pode clicar múltiplas vezes.<br>**Persistência:** Recorrente - acontece a cada nova busca. |
+| **Recomendação de Solução** | Adicionar indicador de carregamento (spinner + texto "Buscando receitas...") imediatamente após o clique. Desabilitar o botão durante processamento para evitar cliques duplicados. |
+
+---
+**Violação #2**
+[Mensagem de erro genérica]
+
+<img width="303" height="159" alt="{4560F166-97E2-4BEF-90DB-76F673EFD4C0}" src="https://github.com/user-attachments/assets/c0cec976-755d-4ce8-85d1-e4bde2606286" />
+
+
+
+| **Verificação** | **Descrição** |
+|-----------------|---------------|
+| **Local** | Seleção de Ingredientes - Validação |
+| **Problema** | Quando usuário tenta continuar sem selecionar ingredientes, mensagem mostra apenas: "Erro: Selecione ao menos 1 ingrediente". Não indica onde/como selecionar. |
+| **Contexto** | Usuário novo não entende que precisa clicar nas categorias acima para selecionar. |
+| **Gravidade** | **2 - Problema Pequeno (Baixa Prioridade)** |
+| **Justificativa** | **Frequência:** Raro - apenas na primeira vez.<br>**Impacto:** Baixo - identifica erro mas não orienta solução.<br>**Persistência:** Temporário - ocorre uma ou duas vezes. |
+| **Recomendação de Solução** | Melhorar mensagem: "Você precisa selecionar ao menos 1 ingrediente para continuar. Toque nas categorias acima (Proteínas, Vegetais, Grãos) para escolher." + destacar área de seleção. |
+
+---
+
+**Violação #3**
+
+![Sair com timer ativo sem confirmação]
+
+<img width="312" height="191" alt="{F8127796-2023-44BF-8DAF-ABAA7E39D31C}" src="https://github.com/user-attachments/assets/f8617721-6de0-4926-9f73-2842e091580f" />
+
+
+| **Verificação** | **Descrição** |
+|-----------------|---------------|
+| **Local** | Modo Cozinha - Botão voltar/sair |
+| **Problema** | Usuário pode sair do Modo Cozinha com timer ativo sem nenhum aviso de confirmação. O timer é perdido e não há forma de recuperá-lo. |
+| **Contexto** | Usuário está cozinhando frango (timer de 7 min ativo), clica acidentalmente no botão voltar, perde o timer e queima a comida. |
+| **Gravidade** | **4 - Problema Catastrófico** |
+| **Justificativa** | **Frequência:** Raro mas possível - especialmente com mãos ocupadas/molhadas.<br>**Impacto:** Catastrófico - pode arruinar a receita completamente.<br>**Persistência:** Permanente - dano não pode ser desfeito. |
+| **Recomendação de Solução** | Implementar modal de confirmação obrigatório: "Você tem um timer ativo (3:45 restantes). Tem certeza que deseja sair?" com botões "Cancelar" (destaque) e "Sair Mesmo Assim". |
+
+---
+
+## B) INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA - HEURÍSTICAS NÃO VIOLADAS
+
+**[Exemplos onde o sistema FlavorScope atende corretamente as heurísticas]**
+
+---
+
+### HEURÍSTICA 1: Visibilidade do status do sistema - BOA PRÁTICA
+
+![Feedback de salvamento bem implementado](image_boa_1.png)
+
+| **Local** | Avaliação da Receita - Confirmação de salvamento |
+|-----------|--------------------------------------------------|
+| **Implementação** | Quando usuário avalia receita e clica em "Salvar no Histórico", sistema exibe imediatamente:<br>• Ícone de check verde (✓) animado<br>• Mensagem "Receita salva com sucesso!"<br>• Badge conquistado é exibido com animação<br>• Contador de receitas no perfil atualiza em tempo real |
+| **Por que é boa prática** | Feedback visual imediato e múltiplo (ícone + texto + animação + atualização de dados) elimina qualquer dúvida sobre o sucesso da operação. Usuário sente confiança de que sua ação foi registrada corretamente. |
+
+---
+
+### HEURÍSTICA 2: Compatibilidade entre sistema e mundo real - BOA PRÁTICA
+
+![Ícones e linguagem familiares](image_boa_2.png)
+
+| **Local** | Cards de Receitas - Indicadores visuais |
+|-----------|----------------------------------------|
+| **Implementação** | Sistema usa ícones universalmente reconhecidos e linguagem natural:<br>• Relógio ⏱️ = tempo de preparo<br>• Chapéu de chef 👨‍🍳 = dificuldade<br>• Estrelas ⭐ = avaliações<br>• Cores intuitivas: verde (fácil), amarelo (médio), vermelho (difícil)<br>• Texto direto: "30 minutos", "Fácil", "4,5 estrelas" |
+| **Por que é boa prática** | Utiliza convenções do mundo real amplamente compreendidas. Mesmo usuários com baixa alfabetização digital conseguem entender imediatamente o significado de cada elemento. |
+
+---
+
+### HEURÍSTICA 3: Consistência e padrões - BOA PRÁTICA
+
+![Botões padronizados](image_boa_4.png)
+
+| **Local** | Todas as telas - Botões de ação principal (CTAs) |
+|-----------|------------------------------------------------|
+| **Implementação** | Todos os botões de ação primária seguem padrão rigoroso:<br>• Cor verde vibrante (#4CAF50) consistente<br>• Posição fixa na parte inferior da tela<br>• Altura mínima de 48px (acessível)<br>• Texto ação direta: "Continuar", "Buscar Receitas", "Salvar"<br>• Ícone complementar quando apropriado |
+| **Por que é boa prática** | Usuários aprendem rapidamente o padrão: "botão verde grande embaixo = próxima ação". Reduz carga cognitiva, acelera interação, aumenta confiança na navegação. |
+
+---
+
