@@ -1071,33 +1071,42 @@ https://www.figma.com/design/9jWUEmVpmIKKMiSGtJD7DT/Sem-t%C3%ADtulo?node-id=0-1&
 
 ### HEURÍSTICA 1: Visibilidade do status do sistema - BOA PRÁTICA
 
-![Feedback de salvamento bem implementado](image_boa_1.png)
+![Feedback de salvamento bem implementado]
+
+<img width="285" height="148" alt="{7B761463-5C9D-4950-9DD1-592F787647B4}" src="https://github.com/user-attachments/assets/eea6db1e-a5a8-4fd3-b584-24bb7d539138" />
+
 
 | **Local** | Avaliação da Receita - Confirmação de salvamento |
 |-----------|--------------------------------------------------|
-| **Implementação** | Quando usuário avalia receita e clica em "Salvar no Histórico", sistema exibe imediatamente:<br>• Ícone de check verde (✓) animado<br>• Mensagem "Receita salva com sucesso!"<br>• Badge conquistado é exibido com animação<br>• Contador de receitas no perfil atualiza em tempo real |
-| **Por que é boa prática** | Feedback visual imediato e múltiplo (ícone + texto + animação + atualização de dados) elimina qualquer dúvida sobre o sucesso da operação. Usuário sente confiança de que sua ação foi registrada corretamente. |
+| **Implementação** | Quando usuário avalia receita e clica em "Enviar", sistema exibe imediatamente:<br>• Mensagem "Avaliacao enviada com sucesso!"<br>• Contador de receitas no perfil atualiza em tempo real |
+| **Por que é boa prática** | Feedback visual imediato e múltiplo (ícone + texto + atualização de dados) elimina qualquer dúvida sobre o sucesso da operação. Usuário sente confiança de que sua ação foi registrada corretamente. |
 
 ---
 
 ### HEURÍSTICA 2: Compatibilidade entre sistema e mundo real - BOA PRÁTICA
 
-![Ícones e linguagem familiares](image_boa_2.png)
+![Ícones e linguagem familiares]
+
+w<img width="268" height="51" alt="{027E13C7-8658-4F32-B6A2-AF855A3A481F}" src="https://github.com/user-attachments/assets/52588700-67f9-4534-b83e-485c54e00acb" />
+
 
 | **Local** | Cards de Receitas - Indicadores visuais |
 |-----------|----------------------------------------|
-| **Implementação** | Sistema usa ícones universalmente reconhecidos e linguagem natural:<br>• Relógio ⏱️ = tempo de preparo<br>• Chapéu de chef 👨‍🍳 = dificuldade<br>• Estrelas ⭐ = avaliações<br>• Cores intuitivas: verde (fácil), amarelo (médio), vermelho (difícil)<br>• Texto direto: "30 minutos", "Fácil", "4,5 estrelas" |
+| **Implementação** | Sistema usa ícones universalmente reconhecidos e linguagem natural:<br><br>• Estrelas  = avaliações<br>• Cores intuitivas: verde (fácil), amarelo (médio), vermelho (difícil)<br>• Texto direto: "30 minutos", "Fácil", "4,5 estrelas" |
 | **Por que é boa prática** | Utiliza convenções do mundo real amplamente compreendidas. Mesmo usuários com baixa alfabetização digital conseguem entender imediatamente o significado de cada elemento. |
 
 ---
 
 ### HEURÍSTICA 3: Consistência e padrões - BOA PRÁTICA
 
-![Botões padronizados](image_boa_4.png)
+![Botões padronizados]
+
+<img width="313" height="72" alt="{8F531D83-9D1F-4A2B-8AF3-8256DB3B4EAB}" src="https://github.com/user-attachments/assets/21d38630-610b-4399-a7b0-7f101b2f41af" />
+
 
 | **Local** | Todas as telas - Botões de ação principal (CTAs) |
 |-----------|------------------------------------------------|
-| **Implementação** | Todos os botões de ação primária seguem padrão rigoroso:<br>• Cor verde vibrante (#4CAF50) consistente<br>• Posição fixa na parte inferior da tela<br>• Altura mínima de 48px (acessível)<br>• Texto ação direta: "Continuar", "Buscar Receitas", "Salvar"<br>• Ícone complementar quando apropriado |
+| **Implementação** | Todos os botões de ação primária seguem padrão rigoroso:<br>• Posição fixa na parte inferior da tela<br>• Altura mínima de 48px (acessível)<br>• Texto ação direta: "Continuar", "Buscar Receitas", "Salvar"<br>• Ícone complementar quando apropriado |
 | **Por que é boa prática** | Usuários aprendem rapidamente o padrão: "botão verde grande embaixo = próxima ação". Reduz carga cognitiva, acelera interação, aumenta confiança na navegação. |
 
 ---
